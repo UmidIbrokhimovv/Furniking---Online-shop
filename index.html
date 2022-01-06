@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/imgs/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/imgs/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/imgs/icons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/imgs/icons/site.webmanifest">
+    <title>Furniking - Online shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <section class="head">
+        <div class="container">
+            <span class="head-word">Welcome to our online shop</span>
+            <span>
+                <select>
+                    <option value="en">English</option>
+                    <option value="uz">Uzbek</option>
+                    <option value="ru">Russian</option>
+                </select>
+                |
+                <span class="form-links">
+                    <a href="/">Login</a>
+                    or
+                    <a href="/">Sign up</a>
+                </span>
+            </span>
+        </div>
+    </section>
+    <header class="site-header">
+        <div class="container">
+            <a href="/">
+                <img src="./assets/imgs/Logo.svg" alt="site-logo" width="147" height="40">
+            </a>
+            <form>
+                <input type="text" placeholder="Search here...">
+                <select>
+                    <option disabled selected>Categories</option>
+                    <option>Categori1</option>
+                    <option>Categori2</option>
+                    <option>Categori3</option>
+                    <option>Categori4</option>
+                    <option>Categori5</option>
+                </select>
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <div class="user-infos">
+                <button class="active-cart">
+                    <i class="fas fa-shopping-bag"></i>
+                </button>
+                <button>
+                    <i class="fas fa-bell"></i>
+                </button>
+                <button>
+                    <i class="fas fa-user"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <section class="header-navbar">
+        <div class="container">
+            <div class="collections">
+                <button id="collections-btn">
+                    <i class="fas fa-caret-down"></i>
+                    all collections</button>
+                <ul class="collections-list" id="collections-list">
+                    <li><a href="/">All</a></li>
+                    <li><a href="/">New Arrivals</a></li>
+                    <li><a href="/">Hot Sale</a></li>
+                    <li><a href="/">Furniture</a></li>
+                    <li><a href="/">Amrature</a></li>
+                    <li><a href="/">Tabble</a></li>
+                    <li><a href="/">Chair</a></li>
+                    <li><a href="/">Sofa</a></li>
+                    <li><a href="/">Mirrors</a></li>
+                    <li><a href="/">Stools</a></li>
+                    <li><a href="/">Benches</a></li>
+                </ul>
+            </div>
+            <ul class="nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Shop</a></li>
+                <li><a href="/">Blog</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="header-section">
+        <div class="container">
+            <div class="header-section-words">
+                <span>TOP COLLECTIONS 2022</span>
+                <h2>We Serve Your
+                    Dream Furniture</h2>
+                <p>Get 50% off all products</p>
+                <button>Shop now</button>
+            </div>
+            <div class="header-section-imgs">
+                <img src="./assets/imgs/Chain1.png" alt="chain" width="374" height="374">
+                <div class="sm-imgs">
+                    <div class="card">
+                        <img src="./assets/imgs/Chain2.png" alt="chain1" width="49" height="53">
+                        <h4>$120</h4>
+                        <p>Office Desk Chair</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/imgs/Chain3.png" alt="chain2" width="79" height="53">
+                        <h4>$180</h4>
+                        <p> Home Alisa Sofa</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/imgs/Chain4.png" alt="chain3" width="51" height="57">
+                        <h4>$250</h4>
+                        <p>Modern Chair</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="references">
+        <div class="container">
+            <div class="card">
+                <img src="./assets/imgs/icon-bus.svg" alt="bus" class="card-img" width="58" height="58">
+                <div class="card-words">
+                    <h4>Free Shipping</h4>
+                    <p>Orders over $100</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/imgs/icon-gift.svg" alt="bus" class="card-img" width="58" height="58">
+                <div class="card-words">
+                    <h4>Smart Gift Card</h4>
+                    <p>Buy $1000 to get card</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/imgs/icon-wallet.svg" alt="bus" class="card-img" width="58" height="58">
+                <div class="card-words">
+                    <h4>Quick Payment</h4>
+                    <p>100% secure payment</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/imgs/icon-support.svg" alt="bus" class="card-img" width="58" height="58">
+                <div class="card-words">
+                    <h4>24/7 Support</h4>
+                    <p>Quick support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="informations">
+        <div class="container">
+            <div class="big-card">
+                <h3>Modern Furniture Collections</h3>
+                <p>Starting from $500</p>
+                <a href="#">Read more -></a>
+            </div>
+            <div class="sm-cards">
+                <div class="sm-card">
+                    <h3>Geometric Bookcase</h3>
+                    <p>Up to 20% discount</p>
+                    <a href="#">Read more -></a>
+                </div>
+                <div class="sm-card">
+                    <h3>Minimal Sofa collections </h3>
+                    <p>Sale upto 40% discount</p>
+                    <a href="#">Read more -></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trending-section">
+        <div class="container">
+            <h1>Trending</h1>
+            <ul class="trending-list">
+                <li id="all" class="active">All</li>
+                <li id="new"class="default">New Arrivals</li>
+                <li id="sale" class="default">Best Sellers</li>
+            </ul>
+            <div class="cards">
+                <div class="card new" id="card">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="new">New</span>
+                        <img src="./assets/imgs/trending-chain1.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>chair</span>
+                        <h4>Minimal LCD chair</h4>
+                        <p>&dollar;180 <span>&dollar;250</span></p>
+                    </div>
+                </div>
+                <div class="card new" id="card">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="new">New</span>
+                        <img src="./assets/imgs/trending-chain2.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>chair</span>
+                        <h4>Minimal Iconic chair</h4>
+                        <p>&dollar;120 <span>&dollar;150</span></p>
+                    </div>
+                </div>
+                <div class="card sale" id="card">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="sale">Sale</span>
+                        <img src="./assets/imgs/trending-chain3.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>chair</span>
+                        <h4>Daning chairs</h4>
+                        <p>&dollar;100 <span>&dollar;120</span></p>
+                    </div>
+                </div>
+                <div class="card sale" id="card">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="sale">Sale</span>
+                        <img src="./assets/imgs/trending-chain4.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>chair</span>
+                        <h4>Buskbo armchair</h4>
+                        <p>&dollar;130 <span>&dollar;150</span></p>
+                    </div>
+                </div>
+                <div class="card sale" id="card">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="sale">Sale</span>
+                        <img src="./assets/imgs/trending-chain5.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>chair</span>
+                        <h4>Modern chairs</h4>
+                        <p>&dollar;100 <span>&dollar;120</span></p>
+                    </div>
+                </div>
+                <div class="card sale" id="card">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="sale">Sale</span>
+                        <img src="./assets/imgs/trending-chain6.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>chair</span>
+                        <h4>Plastic dining chair</h4>
+                        <p>&dollar;130 <span>&dollar;150</span></p>
+                    </div>
+                </div>
+                <div class="card new" id="card">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="new">New</span>
+                        <img src="./assets/imgs/trending-chain7.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>chair</span>
+                        <h4>Minimal Wood chair</h4>
+                        <p>&dollar;180 <span>&dollar;250</span></p>
+                    </div>
+                </div>
+                <div class="card new" id="card">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="new">New</span>
+                        <img src="./assets/imgs/trending-chain8.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>chair</span>
+                        <h4>Elegant wood chair</h4>
+                        <p>&dollar;120 <span>&dollar;150</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="special-offer">
+        <div class="container">
+            <h1 class="heading">Special offer</h1>
+            <div class="cards">
+                <div class="card left">
+                    <div class="sale-info">
+                        40% off
+                    </div>
+                    <h3>Living Room Furniture</h3>
+                    <p>You don't have a chair. Are you ready for growth? Shop with us 40% discount!</p>
+                    <div class="wrapper">
+                        <div class="sums">&dollar;150 <span>&dollar;250</span></div>
+                        <button>shop now</button>
+                    </div>
+                    <div class="infos">
+                        <span>
+                            <h5>10</h5>
+                            <p>Days</p>
+                        </span>
+                        <span>
+                            <h5>15</h5>
+                            <p>HRS</p>
+                        </span>
+                        <span>
+                            <h5>30</h5>
+                            <p>Min</p>
+                        </span>
+                        <span>
+                            <h5>22</h5>
+                            <p>Secs</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="card right">
+                    <div class="sale-info">
+                        50% off
+                    </div>
+                    <h3>Modern chair</h3>
+                    <p>Hot chairs of the modern era are now available in our stock.</p>
+                    <div class="wrapper">
+                        <div class="sums">&dollar;75 <span>&dollar;150</span></div>
+                        <button>shop now</button>
+                    </div>
+                    <div class="infos">
+                        <span>
+                            <h5>15</h5>
+                            <p>Days</p>
+                        </span>
+                        <span>
+                            <h5>08</h5>
+                            <p>HRS</p>
+                        </span>
+                        <span>
+                            <h5>20</h5>
+                            <p>Min</p>
+                        </span>
+                        <span>
+                            <h5>12</h5>
+                            <p>Secs</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-products">
+        <div class="container">
+            <h1 class="heading">Our products</h1>
+            <ul class="sections-list">
+                <li class="active">All Products</li>
+                <li class="default">Best Sellers</li>
+                <li class="default">New Arrivals</li>
+                <li class="default">Todays Deals</li>
+            </ul>
+            <div class="cards">
+              <div class="card" id="card2">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="sale">Sale</span>
+                        <img src="./assets/imgs/products-img1.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>chair</span>
+                        <h4>Minimal LCD chair</h4>
+                        <p>&dollar;180 <span>&dollar;250</span></p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="new">New</span>
+                        <img src="./assets/imgs/products-img2.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>sofa</span>
+                        <h4>Modern sofa</h4>
+                        <p>&dollar;120 <span>&dollar;150</span></p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="sale-persent">-30%</span>
+                        <img src="./assets/imgs/trending-chain3.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>sofa</span>
+                        <h4>Microfiber Sofe</h4>
+                        <p>&dollar;130 <span>&dollar;150</span></p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="sale">Sale</span>
+                        <img src="./assets/imgs/products-img4.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>table</span>
+                        <h4>Wood Coffee Tables</h4>
+                        <p>&dollar;100 <span>&dollar;120</span></p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="sale-persent">-30%</span>
+                        <img src="./assets/imgs/products-img5.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>chair</span>
+                        <h4>Acacia Wood Club Chairs</h4>
+                        <p>&dollar;100 <span>&dollar;120</span></p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="sale">Sale</span>
+                        <img src="./assets/imgs/products-img6.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>bench</span>
+                        <h4>Amalla Cowhide Bench</h4>
+                        <p>&dollar;130 <span>&dollar;150</span></p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="new">New</span>
+                        <img src="./assets/imgs/products-img7.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>storage</span>
+                        <h4>Juno Hinged Lid Storage</h4>
+                        <p>&dollar;180 <span>&dollar;250</span></p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="card-img">
+                        <span class="bg-color"></span>
+                        <span class="new">New</span>
+                        <img src="./assets/imgs/products-img8.png" alt="">
+                        <button class="like-btn">
+                            <i class="far fa-heart"></i> 
+                            <!-- <i class="fas fa-heart"></i> -->
+                        </button>
+                        <button class="adding-btn">
+                            <!-- <i class="fas fa-minus"></i> -->
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="see-btn">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="card-info">
+                        <span>Furniture</span>
+                        <h4>Delice 3 Piece Living Room</h4>
+                        <p>&dollar;120 <span>&dollar;150</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <button>Next page -></button>
+                <div>
+                    <label for="input">Page:</label>
+                    <input type="text" id="input" value="1" disabled>
+                    of 100
+                    <button id="left">  < </button>
+                    <button id="right"> > </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="customer-says">
+        <div class="container">
+            <h2>What our customer says</h2>
+            <div class="testimonials">
+                <div class="image-placeholder">
+                    <img src="./assets/imgs/angelina-joy.png" alt="" class="placeholder-img" width="88" height="88">
+                </div>
+                <blockquote>
+                    I like Furniking.com and as compared to other company it's polices and customers support is very good easy to reach., also many time they unable to delivered. The ultricies are pregnant while the quis is suspended. Risus commodo viverra maecenas accumsan lacus vel facilisist amet.
+                </blockquote>
+                <h3>Angelina Joly</h3>
+                <p>Co-founder</p>
+            </div>
+            <div class="navigation-btns">
+                <button class="left-btn"><</button>
+                <button class="right-btn">></button>
+            </div>
+        </div>
+    </section>
+    <section class="latest-articles">
+        <div class="container">
+            <h2>Our Latest Articles</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="./assets/imgs/Card1.png" alt="">
+                    <div class="tag">
+                        <span>i Furniture</span>
+                        23 September 2022
+                    </div>
+                    <h4>Begineer guide buying minimal sofa</h4>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="card">
+                    <img src="./assets/imgs/Card2.png" alt="">
+                    <div class="tag">
+                        <span>i Table</span>
+                        23 September 2022
+                    </div>
+                    <h4>Buying best minimal computer table</h4>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="card">
+                    <img src="./assets/imgs/Card3.png" alt="">
+                    <div class="tag">
+                        <span>i Bench</span>
+                        23 September 2022
+                    </div>
+                    <h4>How to choose best modern bench</h4>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="card">
+                    <img src="./assets/imgs/Card4.png" alt="">
+                    <div class="tag">
+                        <span>i Chair</span>
+                        23 September 2022
+                    </div>
+                    <h4>Best Summer Outfit Style in this Country</h4>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="info">
+                <a href="#"><img src="./assets/imgs/Logo.svg" alt="" width="150" height="40"></a>
+                <p>Funking is the a popular Ecommerce site. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                <ul class="messangers-list">
+                    <li><a href="#">F</a></li>
+                    <li><a href="#">T</a></li>
+                    <li><a href="#">C</a></li>
+                    <li><a href="#">P</a></li>
+                </ul>
+            </div>
+            <div class="card">
+                <h5>Help</h5>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Shipping & Delivery</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Track Your Order</a></li>
+                </ul>
+            </div>
+            <div class="card">
+                <h5>Storage</h5>
+                <ul>
+                    <li><a href="#">Furniture</a></li>
+                    <li><a href="#">Tabble</a></li>
+                    <li><a href="#">Sofa</a></li>
+                    <li><a href="#">Other</a></li>
+                </ul>
+            </div>
+            <div class="card">
+                <h5>Supports</h5>
+                <ul>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Download app</a></li>
+                    <li><a href="#">Terms conditions</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <section class="footer">
+        <div class="container">
+            <p>© 2021 Funking - All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+</body>
+<script src="./js/main.js"></script>
+
+</html>
